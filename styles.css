@@ -1,0 +1,248 @@
+
+body {
+	/*background-color : #FAFAFA; */
+	background : url('https://img.fortawesome.com/1ce05b4b/hero-icon-bg.svg');
+	font-family: system-ui,-apple-system, /* Firefox supports this but not yet `system-ui` */ 'Segoe UI', Roboto, Helvetica, Arial, sans-serif,'Apple Color Emoji','Segoe UI Emoji';
+	margin-left: 100px;
+	margin-right: 100px;
+	background-color: rgb(251, 199, 127); 
+	
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+h1 {
+	color : #fff;
+}
+
+
+
+.logo {
+	padding-left: 10px;
+	float: left;
+}
+
+.scaffold {
+	background-color: #fff;
+}
+
+.navi {
+	background-color: #fff;
+	border-radius: 50px;
+	height: 50px;
+}
+
+#topnavlink {
+	padding-left: 12px;
+	font-size: 16px;
+}
+
+#topnavlink:hover {
+	background-color: #F7F7F7;
+	border-radius: 10px;
+}
+
+#navicon {
+	padding-top: 15px;
+	padding-left: 10px;
+	word-spacing: 10px;
+	font-size: 16px;
+}
+
+#navlink1 {
+	animation: glow 1s ease-in-out infinite alternate;
+}
+
+
+#navlink2 {
+	animation: glow 1s ease-in-out infinite alternate;
+}
+
+
+#navlink3 {
+	animation: glow 1s ease-in-out infinite alternate;
+}
+
+
+#navlink4 {
+	animation: glow 1s ease-in-out infinite alternate;
+}
+
+#navlink5 {
+	animation: glow 1s ease-in-out infinite alternate;
+}
+
+#navlink6 {
+	animation: glow 1s ease-in-out infinite alternate;
+}
+
+#navlink7 {
+	animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ff6b6b, 0 0 40px #ff6b6b, 0 0 50px #ff6b6b, 0 0 60px #ff6b6b, 0 0 70px #ff6b6b;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #8c8aff, 0 0 40px #8c8aff, 0 0 50px #8c8aff, 0 0 60px #8c8aff, 0 0 70px #8c8aff, 0 0 80px #8c8aff;
+  }
+}
+
+
+
+
+.content {
+	margin-top: 50px;
+	background-color: #FBBC05;
+	text-align: center;
+}
+
+
+.ek {
+	text-align: center;
+}
+
+.dho {
+	margin-top: 100px;
+	text-align: center;
+}
+
+.points{
+	text-align: center;
+/*	background-color: #C4DBFA; */
+	background-color:rgb(251, 199, 127);
+}
+
+.footer{
+	text-align: center;
+	word-spacing: 15px;
+}
+
+#dho1 {
+	font-size: 48px;
+}
+
+#dho2 {
+	font-size: 22px;
+}
+
+#nav1 {
+	font-size: 16px;
+	word-spacing: 80px;
+}
+
+#img1 {
+	text-align: center;
+	margin-top: 30px;
+}
+
+#ek1 {
+	font-size: 64px;
+}
+
+#ek2 {
+	font-size: 22px;
+}
+
+#rnav {
+  float: right;
+	height: 30px;
+  	margin-right : 25px;
+	background-color: #4285F4;
+	border-color: #4285F4;
+	cursor: pointer;
+	color : #fff;
+}
+
+#dark {
+  	float: right;
+	height: 30px;
+  	margin-right : 25px;
+	cursor: pointer;
+}
+
+#mbutton {
+	height: 30px;
+	background-color: #34A853;
+	border-color: #34A853;
+	cursor: pointer;
+	color : #fff;
+}
+
+
+#fbutton {
+	height: 30px;
+	background-color: #EA4335;
+	border-color: #EA4335;
+	cursor: pointer;
+	color : #fff;
+}
+
+#subimage1 {
+  border-style: solid;
+  border-width: 5px ;	
+  border-color: #fff;
+}
+
+
+.wave {
+  background-color: #FBBC05;	
+  float: left;
+  margin: 30px;
+  animation: wave  ease-in-out 0.5s infinite alternate;
+  transform-origin: center -36px;
+
+}
+
+.wave:hover {
+  animation-play-state: paused;
+  cursor: pointer;
+}
+
+.wave img {
+  border: 5px solid #f8f8f8;
+  display: block;
+  width: 200px;
+  height: 250px;
+}
+
+.wave figcaption {
+  text-align: center;
+}
+
+.wave:after{
+  content: '';
+  position: absolute;
+  width: 20px; 
+  height: 20px;
+  border: 1.5px solid #ffffff;
+  top: -10px; 
+  left: 50%;
+  border-bottom: none;
+  border-right: none;
+  transform: rotate(35deg);
+}
+       
+.wave:before{
+  content: '';
+  position: absolute;
+  top: -23px;
+  left: 50%;
+  display: block;
+  height: 44px;
+  width: 47px;
+  background-image: url(https://cdn.hashnode.com/res/hashnode/image/upload/v1602040503586/FW6g79WBY.png);
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  z-index: 16;
+}
+        
+@keyframes wave {
+  0% { transform: rotate(10deg); }
+  100% { transform: rotate(-10deg); }
+}
