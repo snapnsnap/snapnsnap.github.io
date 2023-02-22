@@ -246,3 +246,48 @@ h1 {
   0% { transform: rotate(10deg); }
   100% { transform: rotate(-10deg); }
 }
+
+.contact {
+	margin-left: 100px;
+	margin-right: 100px;
+	padding-bottom: 30px;
+	background-color: #192734;
+	border-radius: 5px;
+	color : #fff;
+	text-align: center;
+
+}
+
+#me{
+  border-radius : 100%;
+  width : 30%
+
+}
+
+#whatsapp {
+	background-color: #34A853;
+	border-color: #34A853;
+	border-style: solid;
+	height: 50px;
+	width : 200px;
+	border-radius : 5px;
+	color : #fff;
+	font-size: 20px;
+}
+
+#marq {
+	color: #FFFF00;
+	text-shadow: 2px 2px 5px red;
+}
+
+#facility {
+	background-color: #8e12c6;
+	border-color: #8e12c6;
+	border-style: solid;
+	height: 50px;
+	border-radius : 5px;
+	font-size: 20px;
+	color : #fff;
+	margin-top: 20px;
+
+}
